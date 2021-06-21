@@ -18,6 +18,15 @@ The designs were created to the following widths:
 
 ### Light Theme
 
+255,255,255 list
+250, 250, 250 background
+95, 96, 105 txt
+218, 217, 221 crossed
+230, 229,233 line
+
+168, 168 175 options
+
+
 - Very Light Gray: hsl(0, 0%, 98%)
 - Very Light Grayish Blue: hsl(236, 33%, 92%)
 - Light Grayish Blue: hsl(233, 11%, 84%)
