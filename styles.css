@@ -112,7 +112,7 @@ body {
   color: #cacde8;
 }
 .theme--dark #header {
-  background-image: url("public/images/bg-desktop-dark.jpg");
+  background-image: url("/public/images/bg-desktop-dark.jpg");
 }
 .theme--dark .newTodo {
   background-color: #25273c;
@@ -132,7 +132,7 @@ body {
   color: #484b6a;
 }
 .theme--light #header {
-  background-image: url("public/images/bg-desktop-light.jpg");
+  background-image: url("/public/images/bg-desktop-light.jpg");
 }
 .theme--light .newTodo {
   background-color: #fff;
