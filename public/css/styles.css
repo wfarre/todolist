@@ -76,6 +76,7 @@ body {
   font-size: 18px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
+  height: 100%;
 }
 
 #header {
@@ -111,6 +112,9 @@ body {
   background-color: #161722;
   color: #cacde8;
 }
+.theme--dark .shadow {
+  box-shadow: 16px 35px 50px 0.5px black;
+}
 .theme--dark #header {
   background-image: url("../images/bg-desktop-dark.jpg");
 }
@@ -131,6 +135,9 @@ body {
   background-color: #fafafa;
   color: #484b6a;
 }
+.theme--light .shadow {
+  box-shadow: 16px 35px 50px 0.5px #d4d4d4;
+}
 .theme--light #header {
   background-image: url("../images/bg-desktop-light.jpg");
 }
@@ -149,6 +156,7 @@ body {
 }
 
 #toDoList {
+  min-height: 100%;
   margin-top: -10rem;
   padding-left: 25%;
   padding-right: 25%;
@@ -162,12 +170,10 @@ body {
   padding-left: 4rem;
   box-sizing: border-box;
   font-size: 18px;
-  box-shadow: 16px 16px 30px black;
   border-radius: 8px;
   left: 3rem;
 }
 #toDoList ul {
-  box-shadow: 16px 16px 30px black;
   padding: 0;
   align-items: center;
 }
@@ -223,6 +229,7 @@ body {
   font-weight: 400;
   color: #777a92;
   align-content: center;
+  cursor: pointer;
 }
 .option button:hover {
   color: #e4e5f1;
@@ -234,13 +241,15 @@ body {
   text-align: center;
 }
 #footer p {
-  margin-top: 3rem;
+  margin-top: 6rem;
   color: #777a92;
 }
 #footer footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin: 0 auto;
+  padding-top: 50px;
+  height: 50px;
 }
 
 .btn--add {
@@ -254,20 +263,7 @@ body {
   position: relative;
   top: 2.7rem;
   left: 1rem;
-}
-
-.dropzone {
-  height: 4rem;
-  width: 100%;
-  background-color: blue;
-  display: none;
-}
-
-.appear {
-  background-color: red;
-}
-.appear .dropzone {
-  display: block;
+  cursor: pointer;
 }
 
 .crossed {
