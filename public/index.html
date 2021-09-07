@@ -19,7 +19,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="theme">
 
   <section id="header">
     <!-- <div>
@@ -29,7 +29,7 @@
       <div>
         <h1>Todo</h1>
       </div>
-    <div>
+    <div class="toggle-btn">
        <!-- sun -->
     <img class="theme-btn sun" src="./images/icon-sun.svg" alt="">
     <!-- <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
@@ -52,7 +52,7 @@
         <span class="checkmark"></span>   
       </label>
     </div> -->
-    <form target="_blank" method="POST">
+    <form>
       <button class="btn--add" type="submit" target=".newTodo">
         +
       </button>
@@ -98,24 +98,23 @@
     <div class="completion">
       <ul>
         <li>
-          <button type="submit" class="done-btn">All</button>
+          <button class="btn-txt done-btn" type="submit">All</button>
         </li>
         <li>
-          <button type="submit" class="done-btn">Active</button>
+          <button class="btn-txt done-btn" type="submit" >Active</button>
         </li>
         <li>
-          <button type="submit" class="done-btn">Completed</button>
+          <button class="btn-txt done-btn" type="submit" >Completed</button>
         </li>
       </ul>
     </div>
     <div class="clearUp">
-      <button type="submit" class="clear-btn">clear completed</button>
+      <button type="submit" class="clear-btn btn-txt">clear completed</button>
     </div>
   </div>
 </section>
   
   <section id="footer">
-
     <p>Drag and drop to reorder list</p>
 <footer>
   <div class="attribution">
@@ -125,8 +124,7 @@
 </footer>
     
   </section>
-  
-  <script src="../index.js"></script>
-  <script src="../createList.js"></script>
+  <script src="../javascript/themes.js"></script>
+  <script src="../javascript/index.js"></script>
 </body>
 </html>
